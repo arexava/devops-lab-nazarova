@@ -27,9 +27,11 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v4
       with:
-        context: .
+        context: ./lab2
+        file: ./lab2/Dockerfile
         push: true
         tags: arexava/my-flask-app:latest
+        
 
     - name: Deploy
       run: echo "Deploy completed"
