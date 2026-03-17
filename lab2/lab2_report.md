@@ -22,7 +22,11 @@ Date of finished: 16.03.2026
 <img width="729" height="30" alt="Снимок экрана 2026-03-17 в 00 04 42" src="https://github.com/user-attachments/assets/78eb6382-27ad-4b2c-836f-9377ed05d52f" />  
 
 
-3. 
+3. Проверила, что приложение работает:
+   <img width="742" height="249" alt="Py" src="https://github.com/user-attachments/assets/7e25fabc-7e20-4a1b-b586-8d707f0ad953" />
+   
+
+
 
 
 
