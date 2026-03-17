@@ -39,7 +39,8 @@ Create → Dashboard → Add visualization
 Сохранила дашборд  
 <img width="587" height="717" alt="Снимок экрана 2026-03-17 в 20 03 24" src="https://github.com/user-attachments/assets/ad742c3d-73d7-42f4-824a-5f412fe5a181" />  
 
-
+Дашборд с треями метриками (node_cpu_seconds_total, node_memory_MemAvailable_bytes,node_memory_MemAvailable_bytes):  
+<img width="707" height="772" alt="Снимок экрана 2026-03-17 в 20 11 32" src="https://github.com/user-attachments/assets/85801fd9-23d0-4915-ad35-e52a033efdb0" />
 
 
 
