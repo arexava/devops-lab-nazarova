@@ -1,0 +1,53 @@
+site_name: Персональный сайт | Арина Назарова
+site_description: Персональный сайт, созданный с использованием технологии MkDocs и языка разметки Markdown в рамках курсовой работы по предмету "Введение в веб технологии"
+site_author: Арина Назарова
+site_url: https://arexava.github.io/my-personal-site/
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - navigation.expand
+    - content.code.copy
+  palette:
+    primary: pink
+    accent: green
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+  - Достижения: achievements.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+
+copyright: Copyright &copy; 2026 Арина Назарова
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/arina_arexava
+      name: Telegram
+    - icon: fontawesome/brands/github
+      link: https://github.com/arexava
+      name: GitHub
+
