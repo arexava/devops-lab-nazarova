@@ -23,7 +23,32 @@ Date of finished: 16.03.2026
 
 
 3. Проверила, что приложение работает:
-   <img width="742" height="249" alt="Py" src="https://github.com/user-attachments/assets/7e25fabc-7e20-4a1b-b586-8d707f0ad953" />
+   <img width="742" height="249" alt="Py" src="https://github.com/user-attachments/assets/7e25fabc-7e20-4a1b-b586-8d707f0ad953" />  
+
+4. В репозитории была создана папка .github/workflows/, в которой размещен файл docker-build.yml с настроенным пайплайном, пайплайн выполняет следующие действия:  
+- запускается при push в ветку main  
+- выполняет checkout кода  
+- настраивает Docker Buildx  
+- выполняет авторизацию в Docker Hub  
+- собирает Docker-образ  
+- публикует образ в Docker Hub
+
+5.В настройках GitHub репозитория были добавлены секреты:  
+- DOCKER_USERNAME  
+- DOCKER_PASSWORD
+  <img width="651" height="203" alt="Снимок экрана 2026-03-17 в 19 35 51" src="https://github.com/user-attachments/assets/196bd365-3e7a-4fac-a41f-1be2157722e4" />
+
+6. После внесения был выполнен push в репозиторий, сначала возникали ошибки, но после их устранения (в качестве пароля использовала новый токен доступа) процесс прошел успешно.  
+<img width="596" height="93" alt="Снимок экрана 2026-03-17 в 19 37 30" src="https://github.com/user-attachments/assets/0bff90d0-00af-42b7-ae21-e238d1ad9b4b" />
+
+7. В результате работы был настроен CI/CD пайплайн, который автоматически собирает и публикует Docker-образ при изменении кода.
+
+
+
+
+
+
+
    
 
 
